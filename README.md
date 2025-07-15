@@ -36,6 +36,7 @@ Local Blockchain: Hardhat Node
 
 ### 📄 Campaign Details  
 ![Campaign Details](frontend/screenshots/contribute1.png)
+
 ![Campaign Details](frontend/screenshots/contribute1.png)
 
   
