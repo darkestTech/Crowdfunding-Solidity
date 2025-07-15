@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #3a0ca3, #4361ee, #4cc9f0);
+  color: white;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.navbar-links li a:hover {
+  opacity: 0.8;
+}
+
+.wallet-section {
+  margin-left: auto;
+}
+
+.wallet-button {
+  background: white;
+  color: #3a0ca3;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.wallet-button:hover {
+  background: #f3f3f3;
+}
+
+.wallet-address {
+  background: #fff;
+  color: #3a0ca3;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}

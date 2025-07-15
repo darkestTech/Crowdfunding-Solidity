@@ -1,0 +1,35 @@
+.hero {
+  background: linear-gradient(135deg, #3a0ca3, #4361ee, #4cc9f0);
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: white;
+  color: #3a0ca3;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  background: #eee;
+}
